@@ -1,2 +1,2 @@
-# project_01_ENGI301
- Project 1 for ENGI 301
+# Project 1, ENGI 301, Vanessa Garlepp
+This project is the development code for an LED-based maze game. An accelerometer will detect movement, and compare this movement to thresholds to determine in which direction the pixel will move. This repository contains preliminary codes which use a random number generator to move the pixel throughout the maze in a series of images. This code can later be easily adapted to take in data from the accelerometer and output movement to the LED matrix. 
