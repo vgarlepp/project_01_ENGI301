@@ -3,25 +3,23 @@ This project is the development code for an LED-based maze game. An acceleromete
 
 In order to run the code, connect your Pocketbeagle to your desktop, ensure it is connected to the network, and open the Cloud9 IDE. Open all 3 scripts included in the "code" folder. Ensure that you have the following python version 3+ installed, and run the following commands:
 
-sudo apt-get update
-sudo apt-get install build-essential python-dev python-setuptools python-smbus -y
-sudo apt-get install python-pip python3-pip -y
-sudo apt-get install zip
-sudo pip3 install --upgrade setuptools
-sudo pip3 install --upgrade Adafruit_BBIO
-sudo pip3 install adafruit-blinka
+sudo apt-get update;
+
+sudo apt-get install build-essential python-dev python-setuptools python-smbus -y;
+
+sudo apt-get install python-pip python3-pip -y;
+
+sudo apt-get install zip;
+
+sudo pip3 install --upgrade setuptools;
+
+sudo pip3 install --upgrade Adafruit_BBIO;
+
+sudo pip3 install adafruit-blinka;
 
 In addition, install the following python libraries/functionalities for this project (import code is included in the python scripts):
 
-Pillow (PIL)
-colorsys
-time
-numpy
-io
-board
-random
-math
-adafruit_mpu6050
+Pillow (PIL); colorsys; time; numpy; io; board; random; math; adafruit_mpu6050
 
 Then run this command:
 
